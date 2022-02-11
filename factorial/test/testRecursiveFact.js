@@ -1,7 +1,7 @@
 const factorial = require('../factorial_recursive.js')
 var assert = require('chai').assert;
 
-describe('Testing factorial', () => {
+describe('Testing recursive factorial', () => {
     it('"Hello"! = undefined', () => {
         assert.equal(factorial("Hello"),undefined);
     })
