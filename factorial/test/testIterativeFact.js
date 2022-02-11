@@ -1,7 +1,7 @@
 const factorial = require('../factorial_iter')
 var assert = require('chai').assert;
 
-describe('Testing iterative factorial', () => {
+describe('Testing an iterative factorial', () => {
     it('"Hello"! = undefined', () => {
         assert.equal(factorial("Hello"),undefined);
     })
